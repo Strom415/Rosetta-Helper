@@ -1,0 +1,7 @@
+{
+  "name": "Rosetta Helper",
+  "id": "733750857474913838",
+  "api": "0.6.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}

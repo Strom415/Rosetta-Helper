@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family:'HelveticaNeue','Arial', sans-serif;
+  font: 12px;
+  text-align: center;
+  margin: 0px;
+}
+footer {
+  text-align: left;
+  position: sticky;
+  bottom: 0;
+  padding: 5px;
+  background-color: white;
+}
+
+/* buttons */
+button {
+  font-size: 16px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  box-shadow: inset 0 0 0 1px black;
+  outline: none;
+  cursor: pointer;
+}
+button:hover { 
+  box-shadow: none;
+  background: #18A0FB;
+  color: white;
+}
+.infoButton {
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  float: right;
+}
+.backButton {
+  cursor: pointer;
+}
+
+/* info screen */
+h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.infoScreen {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+.pluginDetails {
+  text-align: center;
+}
+.devInfoContainer {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+.devInfo {
+  margin: 20px;
+}
+ol {
+  text-align: left;
+  display:inline-block;
+}
+ul {
+  display:inline-block;
+  text-align: left;
+}
+li {
+  margin: 7px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px 30px 10px 30px;
+}
+textarea {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  width: 100%;
+}
+.key {
+  width: 21%;
+}
+.characters, .description {
+  width: 32%;
+}
+.repo {
+  width: 15%;
+}
+#tableHeader {
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color:#525252;
+  color:white;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color:#e6e6e6;
+}
+tr:nth-child(even) textarea {
+  background-color:#e6e6e6;
+}
